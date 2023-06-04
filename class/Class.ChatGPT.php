@@ -3,7 +3,7 @@
 class ChatGPT {
 
     private $api_url = 'https://api.openai.com/v1/chat/completions';
-	private $api_key = '';
+private $api_key = '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';
 	private $streamHandler;
 	private $question;
     private $dfa = NULL;
